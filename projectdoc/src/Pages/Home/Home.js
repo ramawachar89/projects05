@@ -9,7 +9,7 @@ import ImageIcon from "@mui/icons-material/Image";
 import html2canvas from "html2canvas";
 import NavBar from "../../Components/Nav Bar/NavBar";
 
-function Home() {
+function Home() {  
   // State
   const [title, setTitle] = useState("Untitled Document"); // Initializes "title" state variable with the value "Untitled Document"
   const [zoomLevel, setZoomLevel] = useState(100); // Initializes "zoomLevel" state variable with value 100 and "setZoomLevel" function to update "zoomLevel"
