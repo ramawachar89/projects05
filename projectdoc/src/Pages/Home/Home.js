@@ -13,7 +13,7 @@ function Home() {
   // State
   const [title, setTitle] = useState("Untitled Document"); // Initializes "title" state variable with the value "Untitled Document"
   const [zoomLevel, setZoomLevel] = useState(100); // Initializes "zoomLevel" state variable with value 100 and "setZoomLevel" function to update "zoomLevel"
-  const [image] = useState(null); // Initializes "image" state variable with value null and "setImage" function to update "image"
+  const [image] = useState(null);    // Initializes "image" state variable with value null and "setImage" function to update "image"
 
   // Refs
   const fileInputRef = useRef(null); // Initializes "fileInputRef" ref variable with null value
